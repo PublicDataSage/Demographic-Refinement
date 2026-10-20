@@ -1,0 +1,87 @@
+# ------------------------------------------------------------
+# FAccT Demographic Refinement Invariance research repository
+# ------------------------------------------------------------
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local environments, credentials, and configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Notebooks and interactive session checkpoints
+.ipynb_checkpoints/
+.python_history
+
+# Raw or downloaded datasets (including ACS extracts)
+data/*
+!data/.gitkeep
+
+# Experiment outputs, large CSVs, and validation artifacts
+# Regenerate these with the documented commands in README.md.
+results/*
+!results/.gitkeep
+
+# Temporary / scratch exports
+scratch/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+~$*
+
+# LaTeX build artifacts (keep .tex, .bib, and final figures)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# NOTE: figures/ is intentionally NOT ignored so that
+# publication figures can be version-controlled when desired.
+# requirements.txt and requirements-lock.txt are also tracked.
